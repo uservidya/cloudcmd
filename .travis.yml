@@ -1,12 +1,12 @@
 language: node_js
 node_js:
-    - 0.6
+   # - 0.6
     - 0.8
   #  - 0.10
     - 0.11
 
 matrix:
-  exclude:
+  include:
     - node_js: '0.6'
   allow_failures:
     - node_js: '0.11'
